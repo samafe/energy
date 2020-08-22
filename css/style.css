@@ -1,0 +1,248 @@
+/*
+           Master Stylesheet
+    ============================
+    Template Name : mission
+    Author: Samafe islam tonnyma 
+    Author Url: samafe islam.com
+    Descriptions: agency,blog
+    Version:1.0.0
+   
+
+*/
+
+/*
+           Table of Content
+        =====================
+ 1. Typrography
+ 2.
+ 3.
+ 4.
+ 5.
+ 6.
+
+
+
+*/
+
+
+/*=========================
+        Typrography
+===========================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+ font-family: 'Poppins', sans-serif;
+ *{
+    box-sizing: border-box;
+}
+body{
+ font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 20px;
+   margin: 0;
+   padding: 0;
+   margin: 0 auto;
+   color: #151163;
+   
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 35px;
+   color: #1c1c1c;
+}
+h2{
+    font-size: 62px;
+    color: #ffffff;
+    line-height: 65px;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   color: #909090;
+   font-size: 14px;
+   line-height: 20px;
+   margin: 0;
+   padding: 0;   
+}
+/* header top start */
+header{
+  background-color: #ffff;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+  align-items: center;
+}
+.logo{
+  width: 20%;
+}
+.navbar{
+  width: 60%;
+}
+.navbar ul{
+  text-align: center;
+}
+.navbar ul li{
+  display: inline-block;
+}
+.navbar ul li a{
+  font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+  text-decoration: none;
+  font-size: 18px;
+  color: #0f0c51;
+  text-transform: capitalize;
+  padding: 0 15px;
+}
+.navbar ul li a:hover{
+  color: #61c7ff;
+  transition: .3s all ease-in-out;
+}
+.navbar ul li:last-child a{
+  padding-right: 0;
+}
+.banner{
+ background-color: #0f0c51;
+}
+.banner-list{
+  display: flex; 
+  justify-content: space-between;
+}
+.content{
+  width:40%;
+}
+.subtitle{
+  padding-top: 130px;
+}
+.subtitle h1{
+  font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  line-height: 40px;
+ 
+ 
+}
+
+.banner-content p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 300;
+  font-size: 18px;
+  color: #e1e0ed;
+  line-height: 18px;
+ 
+}
+.banner-image{
+     width: 35%;
+     padding-top: 100px;
+}
+.banner-image1{
+     width: 50%;
+     padding-top: 100px;
+}
+.content-image {
+ padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-right: 20px;
+  box-shadow: rgb(238, 248, 237);
+}
+.subtitle2{
+  padding-top: 130px;
+}
+.subtitle2 h1{
+  font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+  font-size: 50px;
+  color: #fff;
+  line-height: 50px;
+  padding-top: 40px;
+}
+.subtitle2 span{
+  color: #ff0000;
+}
+.content-image img{
+     width: 250px;
+    height: 150px;
+    border-radius: 5px;
+}
+.formpart{
+  background-color: #ffffff;
+}
+.part{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.content3{
+  width: 80%;
+  height: 500px;
+}
+.content3 h2{
+  font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    width: 90%;
+    color: #151163;
+    line-height: 40px;
+    padding-top: 40px;
+}
+.content3 p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+  font-size: 18px;
+  width: 65%;
+  color: #151163;
+  line-height: 18px;
+}
+
+  .video {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    padding: 20px 20px;
+}
+.video-img{
+  width: 30%;
+}
+.video-content{
+  width: 30%;
+}
+.video-content p{
+  font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #151163;
+    width: 191px;
+    line-height: 18px;
+    padding-top: 16px;
+}
+.form-part{
+  width: 402px;
+  margin: 0 auto;
+ background-color: #151163;
+ padding: 30px;
+ border-radius: 20px;
+}
+.form-part input:focus{
+  outline: none;
+  box-shadow: none;
+  border-color: #151163;
+}
+.form-part input{
+  height: 60px;
+  width: 395px;
+  margin: 20px 0;
+  border-radius: 30px;
+}
+.form-part input[Email]{
+  color: #151163;
+}
